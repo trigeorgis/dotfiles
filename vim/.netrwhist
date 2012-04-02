@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/george/dotfiles/vim/bundle/c-conceal/after/syntax'
+let g:netrw_dirhist_2='/home/george/.local/share/gnome-shell/extensions/taxidromos@gt108.ic.ac.uk'
+let g:netrw_dirhist_3='/home/george/Projects/tiger-app/app'
+let g:netrw_dirhist_4='/home/george/Projects/tiger-app'
+let g:netrw_dirhist_5='/home/george/Projects'
+let g:netrw_dirhist_6='/home/george'
+let g:netrw_dirhist_7='/home'
+let g:netrw_dirhist_8='/home/george/Projects/tiger-app'

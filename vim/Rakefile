@@ -1,0 +1,16 @@
+def vim_plugin(repo, name=nil)
+  name = repo.match(/.*\/([^\/]+)\.git/)[1] unless name
+  puts 
+  puts "* Installing #{name}"
+  puts
+
+  system "git submodule add #{repo} bundle/#{name}"
+  system "git submodule init"
+end
+
+#desc "Update all plugins"
+#task :update do
+  #system "git submodule foreach git pull origin master"
+#end
+
+#vim_plugin 'http://github.com/tpope/vim-fugitive.git'
